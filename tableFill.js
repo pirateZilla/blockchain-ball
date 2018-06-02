@@ -1,4 +1,3 @@
-
 function fill() {
     for (var i=0; i<16; i++) {
         document.write("<tr><td>" + done[i].name + "</td>");

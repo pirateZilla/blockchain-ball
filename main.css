@@ -26,3 +26,8 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+h2 {
+    font-family: arial, sans-serif;
+    text-align: center;
+}

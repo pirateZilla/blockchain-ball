@@ -26,8 +26,9 @@
     for (i =0; i < 8; i++) {
         done.push({name: entrants[i], gTeam: pot1[i], bTeam: pot4[i]});
     }
-    for (i =0; i < 8; i++) {
-        done.push({name: entrants[i], gTeam: pot2[i], bTeam: pot4[i]});
+    for (i =8; i < 16; i++) {
+        var j = i - 8;
+        done.push({name: entrants[i], gTeam: pot2[j], bTeam: pot3[j]});
     }
     
     for (i=0; i<16; i++) {
@@ -36,6 +37,7 @@
     
     };
 
+    generate();
     
 
-    generate();
+ 

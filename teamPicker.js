@@ -33,6 +33,9 @@
     for (i=0; i<16; i++) {
         console.log("Player is " + done[i].name + ". Their good team is: " + done[i].gTeam + " and their bad team is: " + done[i].bTeam + ".");
     }
-    }
+    
+    };
+
+    
 
     generate();
